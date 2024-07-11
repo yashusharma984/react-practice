@@ -8,8 +8,13 @@ import NOjsx from './Components/NOjsx';
 function App() {
   return (
     <div className="App">
-       <Greet name="yash" heroName = "batman"/>
-       <Greet name ="prince" heroName="superman"/>
+       <Greet name="yash" heroName = "batman" >
+        <p>This is children props</p>
+       </Greet>
+       <Greet name ="prince" heroName="superman">
+        <button>Action</button>
+       </Greet>
+        
       {/* <Welcome/> */} 
       {/* <Hello/> */}
       {/* <NOjsx/> */}
