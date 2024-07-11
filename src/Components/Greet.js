@@ -16,6 +16,8 @@ import { Component } from "react";
   //  define :- props is a object an attribute which pass  the value of the parent components
 const Greet = (props) =>{
   console.log(props)
+  // props.name = "vikas";
+  // you cannogt assign again and again props name or value... it give you error...
   return(
     <div>
       <h1>Hello {props.name} a.k.a {props.heroName}
