@@ -13,9 +13,10 @@ function App() {
        </Greet>
        <Greet name ="prince" heroName="superman">
         <button>Action</button>
-       </Greet>
-        
-      {/* <Welcome/> */} 
+       </Greet> 
+      <Welcome name = "krish" heroName= "pokemon"/> 
+      <Welcome name = "vijay" heroName="pikachu"/>
+
       {/* <Hello/> */}
       {/* <NOjsx/> */}
     </div>
