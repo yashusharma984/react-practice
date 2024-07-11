@@ -11,6 +11,7 @@ import React from "react";
 //     )
 // } 
 
+ // without jsx function...
 const Hello=()=>{
     return React.createElement('div',null,<h1>Hello NO JSX USED HERE</h1>)
 }
