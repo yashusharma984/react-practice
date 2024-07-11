@@ -8,10 +8,11 @@ import NOjsx from './Components/NOjsx';
 function App() {
   return (
     <div className="App">
-      {/* <Greet/>
-      <Welcome/> */}
+       <Greet name="yash" heroName = "batman"/>
+       <Greet name ="prince" heroName="superman"/>
+      {/* <Welcome/> */} 
       {/* <Hello/> */}
-      <NOjsx/>
+      {/* <NOjsx/> */}
     </div>
   );
 }
