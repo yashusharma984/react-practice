@@ -5,6 +5,7 @@ import Welcome from './Components/Welcome';
 import Hello from './Components/Hello';
 import NOjsx from './Components/NOjsx';
 import Message from './Components/Message';
+import Counter from './Components/Counter';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
        </Greet> 
       <Welcome name = "krish" heroName= "pokemon"/> 
       <Welcome name = "vijay" heroName="pikachu"/> */}
+      <Counter/>
       <Message/>
 
       {/* <Hello/> */}

@@ -1,5 +1,5 @@
 import React, { Component } from "react";
- // example of state  in class component
+ // example of state  in class componentcd
 class Message extends Component{
 
     constructor(){
