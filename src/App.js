@@ -18,13 +18,15 @@ import Element_Variables from './Conditional Rendering/Element_Variables';
 import Ternary_Conditional from './Conditional Rendering/Ternary_Conditional';
 import NameList from './List Rendring/NameList';
 import PersonList from './List Rendring/PersonList';
+import List1 from './List & Keys/List1';
 // import Sort_circuit_operator from './Conditional Rendering/sort_circuit_operator';
 
 function App() {
   return (
     <div className="App">
     {/* <NameList/> */}
-    <PersonList/>
+    {/* <PersonList/> */}
+    {/* <List1/> */}
        {/* <UserGreet/> */}
        {/* <IF_else/> */}
        {/* <Element_Variables/> */}
