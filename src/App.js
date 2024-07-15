@@ -6,6 +6,9 @@ import Hello from './Components/Hello';
 import NOjsx from './Components/NOjsx';
 import Message from './Components/Message';
 import Counter from './Components/Counter';
+import FunctionClick from './EventHandling/FunctionClick';
+import Classclick from './EventHandling/Classclick';
+import EventBind from './Binding Event Handler/EventBind';
 
 function App() {
   return (
@@ -18,8 +21,13 @@ function App() {
        </Greet> 
       <Welcome name = "krish" heroName= "pokemon"/> 
       <Welcome name = "vijay" heroName="pikachu"/> */}
-      <Counter/>
+      {/* <Counter/>
       <Message/>
+      <Greet name ="prince" heroName="superman"/>
+      <Welcome name = "krish" heroName= "pokemon"/>  */}
+      <FunctionClick/>
+      <Classclick/>
+      <EventBind/>
 
       {/* <Hello/> */}
       {/* <NOjsx/> */}
