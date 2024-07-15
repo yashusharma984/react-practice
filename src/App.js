@@ -16,12 +16,15 @@ import UserGreet from './Conditional Rendering/UserGreet';
 import IF_else from './Conditional Rendering/IF_else';
 import Element_Variables from './Conditional Rendering/Element_Variables';
 import Ternary_Conditional from './Conditional Rendering/Ternary_Conditional';
+import NameList from './List Rendring/NameList';
+import PersonList from './List Rendring/PersonList';
 // import Sort_circuit_operator from './Conditional Rendering/sort_circuit_operator';
 
 function App() {
   return (
     <div className="App">
-    
+    {/* <NameList/> */}
+    <PersonList/>
        {/* <UserGreet/> */}
        {/* <IF_else/> */}
        {/* <Element_Variables/> */}
