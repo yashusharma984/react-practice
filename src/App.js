@@ -11,6 +11,7 @@ import Classclick from './EventHandling/Classclick';
 import EventBind from './Binding Event Handler/EventBind';
 import ParentComponent from './Methods as Props/ParentComponent';
 import ChildComponent from './Methods as Props/ChildComponent';
+import Parents from './Methods as Props/Parents';
 
 function App() {
   return (
@@ -30,7 +31,8 @@ function App() {
       {/* <FunctionClick/>
       <Classclick/>
       <EventBind/> */}
-      <ParentComponent/>
+      {/* <ParentComponent/> */}
+      <Parents/>
 
       {/* <Hello/> */}
       {/* <NOjsx/> */}
