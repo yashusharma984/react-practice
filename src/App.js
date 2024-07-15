@@ -9,6 +9,8 @@ import Counter from './Components/Counter';
 import FunctionClick from './EventHandling/FunctionClick';
 import Classclick from './EventHandling/Classclick';
 import EventBind from './Binding Event Handler/EventBind';
+import ParentComponent from './Methods as Props/ParentComponent';
+import ChildComponent from './Methods as Props/ChildComponent';
 
 function App() {
   return (
@@ -25,9 +27,10 @@ function App() {
       <Message/>
       <Greet name ="prince" heroName="superman"/>
       <Welcome name = "krish" heroName= "pokemon"/>  */}
-      <FunctionClick/>
+      {/* <FunctionClick/>
       <Classclick/>
-      <EventBind/>
+      <EventBind/> */}
+      <ParentComponent/>
 
       {/* <Hello/> */}
       {/* <NOjsx/> */}
