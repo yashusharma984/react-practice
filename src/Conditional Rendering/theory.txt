@@ -1,0 +1,5 @@
+ we have  different conditional rendering
+ 1. if / else 
+ 2. Element Variables
+ 3. Ternary conditional operator
+ 4. sort circuit operator
