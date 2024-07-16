@@ -20,13 +20,23 @@ import './App.css';
 // import PersonList from './List Rendring/PersonList';
 // import List1 from './List & Keys/List1';
 
-import NameList from './Index as Key Anti Pattern/NameList';
+// import NameList from './Index as Key Anti Pattern/NameList';
+
+import Stylesheet from './Styling React Components/Stylesheet';
+import Inline from './Styling React Components/Inline';
 // import Sort_circuit_operator from './Conditional Rendering/sort_circuit_operator';
+import Regularappstyle from './Styling React Components/Regularappstyle.css';
+import appStylesModule from './Styling React Components/appStylesModule.css';
 
 function App() {
   return (
     <div className="App">
-      <NameList/>
+      {/* <NameList/> */}
+       <Stylesheet primary ={true}/> 
+         <Inline/> 
+      <h1 className='error'>Error</h1> 
+       <h1 className=  {appStylesModule.success}>Success</h1> 
+
     {/* <NameList/> */}
     {/* <PersonList/> */}
     {/* <List1/> */}
@@ -58,7 +68,7 @@ function App() {
       {/* <Hello/> */}
       {/* <NOjsx/> */}
     </div>
-  );
-}
+  )
+    }
 
 export default App;

@@ -21,7 +21,7 @@ function NameList() {
   //      skills : 'html'
   //   }
   // ]
-   const namelist =names.map((name,index) => <h2 key={index}>{index} {name}</h2>)
+   const namelist =names.map((name,index,) => <h2 key={index}>{index} {name}</h2>)
    return <div>{namelist}</div>
   }
 
