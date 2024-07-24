@@ -20,4 +20,4 @@ class IF_else extends Component {
 }
 }
 
-export default IF_else
+export default IF_else;

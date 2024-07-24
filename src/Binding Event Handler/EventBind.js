@@ -39,7 +39,7 @@ clickHandler=()=>{
         {/* <button onClick={()=>this.clickHandler()} >Arrow Event</button> */}
 
         {/* 3rd method .. bind in  class constructor  */}
-        <button onClick={this.clickHandler}> Bind </button>
+        <button onClick={this.clickHandler} > Bind </button>
 
       </div>
     )
