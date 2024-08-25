@@ -32,10 +32,10 @@ function App() {
   return (
     <div className="App">
       {/* <NameList/> */}
-       <Stylesheet primary ={true}/> 
+       {/* <Stylesheet primary ={true}/>  */}
          <Inline/> 
-      <h1 className='error'>Error</h1> 
-       <h1 className=  {appStylesModule.success}>Success</h1> 
+      {/* <h1 className='error'>Error</h1> 
+       <h1 className=  {appStylesModule.success}>Success</h1>  */}
 
     {/* <NameList/> */}
     {/* <PersonList/> */}

@@ -24,7 +24,7 @@ function List1() {
    }
 
   ]  //  this below lines means that List2 will take the details of list 1....
-   const list1 =details.map(detail => <List2 key = {detail.id }  detail = {detail}/>)
+   const list1 = details.map(detail => < List2 key = {detail.id }  detail = {detail}/> )
   return <div>{list1}</div>
 }
 
